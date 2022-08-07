@@ -51,6 +51,14 @@ for (var propertyName in shoppingCart) {
     console.log(propertyName);
 }
 
+// how find value 
+
+for (var propertyName in shoppingCart) {
+
+    const value = shoppingCart[propertyName];
+    console.log(propertyName, value);
+}
+
 
 
 
